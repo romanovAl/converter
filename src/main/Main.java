@@ -53,11 +53,12 @@ public class Main {
 
     private static int[] reverseMass(int[]massive){ //Переворачивает массив
         int[] finalMassive = new int[massive.length];
+
         for(int i = 0; i < massive.length; i++ ){
             finalMassive[i] = massive[massive.length - 1 - i];
-//            System.out.println(Arrays.toString(finalMassive));
         }
-        for(int i = 0; i< finalMassive.length; i++){
+
+        for(int i = 0; i< finalMassive.length; i++){ //Вывод числа в уже двоичной СИ
             System.out.print(finalMassive[i]);
         }
         return finalMassive;
