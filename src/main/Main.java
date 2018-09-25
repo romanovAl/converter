@@ -50,7 +50,7 @@ public class Main {
     }
 
 
-    private static int[] reverseMass(int[]massive){ //Переворачивает массив
+    private static void reverseMass(int[]massive){ //Переворачивает массив
         int[] finalMassive = new int[massive.length];
 
         for(int i = 0; i < massive.length; i++ ){
@@ -60,7 +60,7 @@ public class Main {
         for(int i = 0; i< finalMassive.length; i++){ //Вывод числа в уже двоичной СИ
             System.out.print(finalMassive[i]);
         }
-        return finalMassive;
+
     }
 
 
